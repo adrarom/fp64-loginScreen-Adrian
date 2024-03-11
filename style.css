@@ -1,0 +1,32 @@
+:root{
+    --color-black:#181818;
+    --color-grey: #afaeac;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+.h-100vh {
+    height: 100vh;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.color-black{
+    color: var(--color-black);
+}
+.color-grey{
+    color: var(--color-grey);   
+}
+.bg-b1{
+    background-color: var(--color-black) !important;
+}
+.top-80{
+    top:80%;
+}
+.pt-serif{
+    font-family: "PT Serif", serif;
+}
+.aespa{
+    font-family: 'aespa', sans-serif;
+}
