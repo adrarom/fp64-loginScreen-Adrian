@@ -30,7 +30,7 @@
                 <h1 class="mt-5 aespa fs-1 fw-bold">Welcome back!</h1>
                 <p class="fs-5 color-grey ">The faster you fill up, the faster you get a ticket</p>
             </div>
-            <form class="px-5 w-75 m-auto" action="./payment.html" method="post">
+            <form class="px-5 w-75 m-auto" action="./payment.html"> <!-- Here goes POST method-->
                 <div class="mb-4 mt-3">
                     <label for="exampleInputEmail1" class="form-label fw-bold fs-5 color-black">Email</label>
                     <input type="email" class="form-control rounded-0 p-2 px-4" aria-describedby="emailHelp"
@@ -72,7 +72,7 @@
             <div class="d-flex justify-content-center align-content-center h-25 ">
                 <div class="align-self-end">
                     <span class="color-grey">Don't have an account?</span>
-                    <button class=" fw-bold bg-white border-0 color-black">Forgot Password?</button>
+                    <a class="fst-normal fw-bold bg-white border-0 color-black" href="register.html">Sign up!</a>
                 </div>
             </div>
 

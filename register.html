@@ -27,10 +27,10 @@
                 </svg>Giihan
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center  mt-5">
-                <h1 class="mt-5 aespa fs-1 fw-bold">Welcome back!</h1>
-                <p class="fs-5 color-grey ">The faster you fill up, the faster you get a ticket</p>
+                <h1 class="mt-5 aespa fs-1 fw-bold">Welcome!</h1>
+                <p class="fs-5 color-grey ">The faster you register, the faster can get your tickets</p>
             </div>
-            <form class="px-5 w-75 m-auto" method="get">
+            <form class="px-5 w-75 m-auto" action="./index.html"> <!-- Here goes POST method-->
                 <div class="mb-4 mt-3">
                     <label for="exampleInputEmail1" class="form-label fw-bold fs-5 color-black">Email</label>
                     <input type="email" class="form-control rounded-0 p-2 px-4" aria-describedby="emailHelp"
@@ -41,20 +41,12 @@
                     <input type="password" class="form-control rounded-0 p-2 px-4" id="exampleInputPassword1"
                         placeholder="*********" name="password" value="">
                 </div>
-                <div class="mb-3 form-check">
-                    <div class="d-flex my-4">
-                        <input type="checkbox" class="form-check-input rounded-0 me-3" id="exampleCheck1">
-
-                        <label class="form-check-label fw-bold color-black" for="exampleCheck1">Remember me</label>
-                        <button class="ms-auto fw-bold mb-3 bg-white border-0 color-black">Forgot Password?</button>
-                    </div>
-                </div>
                 <div>
 
                     <button type="submit"
                         class="btn border-0 bg-b1 d-flex m-auto w-100 py-2 rounded-0 text-white fw-bold"><span
                             class="text-center m-auto">Sign
-                            in</span></button>
+                            up</span></button>
                     <button type="submit"
                         class="btn w-100 d-flex justify-content-center align-items-center mt-3 py-2 rounded-0 border border-2 border-opacity-50 fw-bold">
                         <div class="m-auto">
@@ -63,7 +55,7 @@
                                 <path
                                     d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z" />
                             </svg>
-                            <span class="text-center m-auto">Sign in with google</span>
+                            <span class="text-center m-auto">Sign up with google</span>
                         </div>
                     </button>
                 </div>
@@ -71,8 +63,8 @@
             </form>
             <div class="d-flex justify-content-center align-content-center h-25 ">
                 <div class="align-self-end">
-                    <span class="color-grey">Don't have an account?</span>
-                    <button class=" fw-bold bg-white border-0 color-black">Forgot Password?</button>
+                    <span class="color-grey">Already have an account?</span>
+                    <a class=" fw-bold bg-white border-0 color-black" href="./index.html">Sign in</a>
                 </div>
             </div>
 
